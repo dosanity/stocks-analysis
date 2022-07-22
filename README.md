@@ -101,7 +101,7 @@ Sub AllStocksAnalysisRefactored()
                tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
 
             '3d Increase the tickerIndex.
-                tickerIndex = tickerIndex + 1
+               tickerIndex = tickerIndex + 1
             
         End If
     
