@@ -19,7 +19,11 @@ There is a major difference in the alternative energy production stocks between 
 
 In our analysis, we only compared two different variables. There are many other factors that influence the stock market that were not examined. Economic impacts, government interventions, and other unforseen events can impact the stock market. We recommend researching other variables before making informed decisions.
 
-### Refactored VBA Code
+### Refactoring Code
+
+In our code, we created three output arrays: `tickerVolumes`, `tickerStartingPrices`, and `tickerEndingPrices`. We also created a `tickerIndex` variable to access the index across the different arrays. Additionally, we created `for` loops to loop over all the rows in the spreadsheet and conditional statements to calculate the `tickerStartingPrices` and `tickerEndingPrices` to complete the analysis.
+
+#### Refactored VBA Code
 
 ```
 Sub AllStocksAnalysisRefactored()
@@ -150,7 +154,7 @@ Sub AllStocksAnalysisRefactored()
 End Sub
 ```
 
-### Original VBA Code
+#### Original VBA Code
 
 ```
 Sub AllStocksAnalysis()
