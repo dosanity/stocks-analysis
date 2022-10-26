@@ -3,21 +3,21 @@
 ## Overview of Project
 
 ### Purpose
-Steve is researching investments of alternative energy production. There are many forms of green energy to invest in which includes hydroelectricity, wind energy, geothermal energy, and bio energy. Steve is seeking assistance so that he can help diversify funds and analyze stocks. We examined and interpreted 12 different stock data to see if there are specific factors that could be beneficial to Steve in his research. In our analysis, we designed an interactive workbook using Visual Basic for Application (VBA) within Excel to provide the Total Daily Volume and Return on Investment (ROI) of each stock. 
+Steve is researching investments in alternative energy production. There are many forms of green energy to invest in which include hydroelectricity, wind energy, geothermal energy, and bioenergy. Steve is seeking assistance so that he can help diversify funds and analyze stocks. We examined and interpreted 12 different stock data to see if there are specific factors that could be beneficial to Steve in his research. In our analysis, we designed an interactive workbook using Visual Basic for Application (VBA) within Excel to provide the Total Daily Volume and Return on Investment (ROI) of each stock. 
 
-Now Steve wants to expand the dataset to include the entire stock market over the last few years, but it may increase the run time of the VBA script. Although our code works well for a dozen stocks, it may not execute as well for thousands of stocks. We will refactor the previous code to determine whether refactoring our code successfully will make the VBA script run more efficiently and faster. In this analysis, we will be comparing the new execution time with the original VBA code. We will use these insights to help best support Steve in his research investments of alternative energy production.
+Now Steve wants to expand the dataset to include the entire stock market over the last few years, but it may increase the run time of the VBA script. Although our code works well for a dozen stocks, it may not execute as well for thousands of stocks. We will refactor the previous code to determine whether refactoring our code successfully will make the VBA script run more efficiently and faster. In this analysis, we will be comparing the new execution time with the original VBA code. We will use these insights to help best support Steve in his research investments in alternative energy production.
 
 ## Results
 
 ### Stock Performance 2017 - 2018
 
-There is a major difference in the alternative energy production stocks between the years 2017 and 2018. In 2017, almost all stocks had positive returns except for TerraForm Power Inc (TERP) while in 2018, almost all stocks had negative returns except for Enphase Energy Inc (ENPH) and Sunrun Inc (RUN). Additionally, many of the Total Daily Volume of the stocks declined between 2017 and 2018. 
+There is a major difference in the alternative energy production stocks between the years 2017 and 2018. In 2017, almost all stocks had positive returns except for TerraForm Power Inc (TERP) while in 2018, almost all stocks had negative returns except for Enphase Energy Inc (ENPH) and Sunrun Inc (RUN). Additionally, much of the Total Daily Volumes of the stocks declined between 2017 and 2018. 
 
 ![2017 Return](https://user-images.githubusercontent.com/29410712/180332648-fb5a02c4-8973-4927-a720-6487380f595b.png)
 
 ![2018 Return](https://user-images.githubusercontent.com/29410712/180332662-e49a5a0a-0c8a-428e-98c0-223e68755c5c.png)
 
-In our analysis, we only compared two different variables. There are many other factors that influence the stock market that were not examined. Economic impacts, government interventions, and other unforseen events can impact the stock market. We recommend researching other variables before making informed decisions.
+In our analysis, we only compared two different variables. There are many other factors that influence the stock market that was not examined. Economic impacts, government interventions, and other unforeseen events can impact the stock market. We recommend researching other variables before making informed decisions.
 
 ### Refactoring Code
 
@@ -296,9 +296,10 @@ In our analysis, we tested the execution times of the original VBA script and co
 
 ![Screenshot (284)](https://user-images.githubusercontent.com/29410712/180339280-c8b9d209-6087-4b1d-9a4b-75ca9bcf7e3e.png)
 
-As we can see, the refactored code runs more quickly and efficiently than the original code. The run times of the original code for 2017 and 2018 are 1.382 seconds and 1.492 seconds respectively. Furthermore, the run times of the refactored code for 2017 and 2018 are 0.121 seconds and 0.117 seconds respectively. In our analysis, we can conlcude that the refactored code is about 91.7% faster than the original code. It is now more efficient and can help run an analysis for thousands of stocks to help best support Steve in his research investments of alternative energy production.
+As we can see, the refactored code runs more quickly and efficiently than the original code. The run times of the original code for 2017 and 2018 are 1.382 seconds and 1.492 seconds respectively. Furthermore, the run times of the refactored code for 2017 and 2018 are 0.121 seconds and 0.117 seconds respectively. In our analysis, we can conclude that the refactored code is about 91.7% faster than the original code. It is now more efficient and can help run an analysis for thousands of stocks to help best support Steve in his research investments of alternative energy production.
 
 ## Summary
 
 ### Advantages & Disadvantages of Refactoring Code
-As a result, there are many advantages of refactoring code. Some advantages include removing duplicate code which improves the effectiveness of the code, increases the speed of running the code, and better readability for future uses. This can be seen in our analysis with the code running about 91.7% faster. Although our research shows there are advantages, there are some disadvantages of refactoring code which include increase chance of errors and can be unnecessary. It could potentially contain many bugs after an attempt to refactor and can stop the original code from running. 
+As a result, there are many advantages of refactoring code. Some advantages include removing duplicate code which improves the effectiveness of the code, increases the speed of running the code, and better readability for future uses. This can be seen in our analysis with the code running about 91.7% faster. Although our research shows there are advantages, there are some disadvantages of refactoring code which include an increased chance of errors and can be unnecessary. It could potentially contain many bugs after an attempt to refactor and can stop the original code from running.
+
